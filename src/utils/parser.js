@@ -10,7 +10,7 @@ export function parseLineChat(content) {
 
   let currentDate = '';
   const dateRegex = /^\d{4}\/\d{2}\/\d{2}\(.*\)$/;
-  const timeRegex = /^\d{2}:\d{2}\t/;
+  const timeRegex = /^\d{1,2}:\d{2}\t/;
   let messageId = 0;
   let currentMessage = null;
 
